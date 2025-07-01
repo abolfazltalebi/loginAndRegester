@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'FALAK';
+  src: url('./assets/font/Mikhak-VF.ttf') format('truetype');
+}
+
+@import "tailwindcss";
+
+@layer base {
+
+  html,
+  body {
+    font-family: 'FALAK';
+  }
+}
