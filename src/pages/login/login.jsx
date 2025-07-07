@@ -3,7 +3,7 @@ import login from "../../assets/images/login.png";
 
 export default function Login() {
   return (
-    <main className="h-screen bg-orange-100 flex flex-col items-center justify-center p-12">
+    <main className="sm:h-screen bg-orange-100 flex flex-col items-center justify-center p-2 sm:p-12">
       <section className="grid grid-cols-2 gap-4">
         <div>
           <img src={login} alt="" />
@@ -31,7 +31,7 @@ export default function Login() {
               <button className="bg-orange-600 p-2 rounded-xl px-12 text-white duration-500 transition-all hover:rounded-full cursor-pointer">
                 ورود به پنل
               </button>
-              <Link to={"/register"}>
+              <Link to={"/SignIn"}>
                 <button className="border-2 border-orange-600 p-2 rounded-xl px-12 duration-500 transition-all hover:rounded-full cursor-pointer">
                   ثبت نام
                 </button>
